@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">What I Do</a>
+              <a class="nav-link js-scroll-trigger" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#my-journey">My Journey</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -63,44 +63,38 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To My Portfolio!</div>
           <div class="intro-heading text-uppercase">Take A Look Around!</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Let's Explore Together!</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about-me">Let's Explore Together!</a>
         </div>
       </div>
     </header>
 
-    <!-- Services -->
-    <section id="services">
+    <!-- about-me -->
+    <section id="about-me">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">What I Do</h2>
-            <h3 class="section-subheading text-muted">You know, for fun and stuff...</h3>
+            <h2 class="section-heading text-uppercase">About Me</h2>
+            <h3 class="section-subheading text-muted">You know, what I do for fun and stuff...</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Art</h4>
-            <p class="text-muted">I enjoy many forms of artistic expression. Writing, painting, drawing, photography, and SFX Makeup are just a few things that I dabble in. Right now I'm working on my second draft of my first novel and I finished the first draft of my second novel last year!.</p>
+            <a class="skill-link" href="art.html"><img class="rounded-circle img-fluid" src="img/art/art-thumbnail.jpg" alt="">
+            <h4 class="service-heading">My Art</h4>
+            </a>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Coding</h4>
-            <p class="text-muted">I've been working with HTML/CSS, Javascript, Bootstrap, React, Python, Django, Express, and MongoDB. Back-End coding is where I've been focusing with Python and Django, but React Front-Ends have been so much fun to learn as well.</p>
+            <a href="sfx.html"><img class="rounded-circle img-fluid" src="img/sfx/pagelink.jpg" alt="">
+            <h4 class="service-heading">My SFX Makeup</h4>
+            </a>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Time with Family</h4>
-            <p class="text-muted">My wife and I enjoy our time together here in Chicago. Trying new restaurants, hitting up street fests, movies in the park, and spending time with our two dogs. After living a fairly nomadic lifestyle in hospitality, it's exciting to finally be putting down roots.</p>
+            <div class="hoverlinks">
+            <a href="cooking.html">
+            <img class="rounded-circle img-fluid" src="img/cooking/foodlink.jpg" alt="">
+            <h4 class="service-heading">My Cooking</h4>
+            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -111,8 +105,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">What I have Built</h2>
-            <h3 class="section-subheading text-muted">My Projects</h3>
+            <h2 class="section-heading text-uppercase">My Projects</h2>
+              <div class="languages-frameworks">
+                <div class="skill-icons">
+                  <p class="section-subheading text-muted">I am passionate about backend development. These projects were built with the following languages, frameworks, and version control:</p>
+                  <span>
+                    <ul class="list-inline social-buttons">
+                      <li class="list-inline-item"><i class="fas fa-code fa-3x"></i><br>HTML5</li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt fa-3x"></i><br>CSS3</li>
+                      <li class="list-inline-item"><i class="fab fa-js-square fa-3x"></i><br>JavaScript</li>
+                      <li class="list-inline-item"><i class="fab fa-python fa-3x"></i><br>Python</li>
+                      <li class="list-inline-item"><i class="fab fa-node fa-3x"></i><br>Node.js</li>
+                      <li class="list-inline-item"><i class="fab fa-3x">dj</i><br>Django</li>
+                      <li class="list-inline-item"><i class="fas fa-leaf fa-3x"></i><br>MongoDB</li>
+                      <li class="list-inline-item"><i class="fab fa-react fa-3x"></i><br>React</li>
+                      <li class="list-inline-item"><i class="fab fa-3x">JQ</i><br>jQuery</li>
+                      <li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i><br>Git/Github</li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
+              <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
         <div class="row">
@@ -140,8 +153,8 @@
               <img class="img-fluid" src="img/portfolio/project2.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Full-Stack CRUD App</h4>
-              <p class="text-muted">Full-Stack: JS/MongoDB and Express</p>
+              <h4>Fullstack Web Forum</h4>
+              <p class="text-muted">Opinion Meter</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -154,8 +167,8 @@
               <img class="img-fluid" src="img/portfolio/chidogsthumb.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>ChiDogs</h4>
-              <p class="text-muted">Full-Stack: Python/Django, and React</p>
+              <h4>Social Media Network</h4>
+              <p class="text-muted">ChiDogs</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -168,8 +181,8 @@
               <img class="img-fluid" src="img/portfolio/blog-thumbnail.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Bootcamp to Web Dev</h4>
-              <p class="text-muted">Personal Blog</p>
+              <h4>Personal Blog</h4>
+              <p class="text-muted">Bootcamp to Web Dev</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -182,8 +195,8 @@
               <img class="img-fluid" src="img/portfolio/underConstruction-thumb.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Budgeter</h4>
-              <p class="text-muted">Fullstack Web Application</p>
+              <h4>Fullstack Web App</h4>
+              <p class="text-muted">Budgeter</p>
             </div>
           </div>
           <!-- <div class="col-md-4 col-sm-6 portfolio-item">
@@ -205,11 +218,11 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="my-journey">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
+            <h2 class="section-heading text-uppercase">My Journey</h2>
             <h3 class="section-subheading text-muted">Get to Know the Man Behind the Code</h3>
           </div>
         </div>

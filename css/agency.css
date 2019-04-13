@@ -693,3 +693,18 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+.languages-frameworks {
+  display: flex;
+}
+
+.skill-icons {
+  justify-content: space-around;
+}
+
+.hoverlinks:hover {
+  background-color: yellow;
+}
+
+
+
