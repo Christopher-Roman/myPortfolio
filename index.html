@@ -1,690 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div style="text-align: center;">
+		<h1 id="title" class="display-5 text-white">Portfolio by: <small class="text-white"><a class="about-me-link" href="about.html" target="_blank">Chris Roman</a></small></h1>
+	</div>
 
-  <head>
+	<div class="container" style="padding-left: 100px;">
+		<div class="row">
+			<div class="carousel-one">
+				<div class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-1" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-1" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-1" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="img/project1.jpg" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container">
+					    			<div class="tech">
+						    			<span>The collision detection was the most difficult part, but it was where I had the most fun! That and the jerky movements the zombies have on the screen.</span>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>Technology Used:</span>
+							    			<br>
+							    			<i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+							    			<i class="fa fa-css3 fa-2x"></i>
+							    			<i class="fab fa-js-square fa-2x"></i>
+							    			<i class="fab fa-2x">JQ</i>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-1" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-1" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links">
+				    	<h5 id="project-1" class="card-title">Escape the Meandering Dead!</h5>
+					    <a class="btn btn-secondary" role="button" href="https://christopher-roman.github.io/project-1/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/project-1" target="_blank">Repo</a>
+				    </div>
+				  </div>
+				</div>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+			</div>
 
-    <title>Chris Roman</title>
+			<div class="carousel-two">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				<div id="card-one" class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-two" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-two" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-two" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="img/project2.jpg" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container-two">
+					    			<div class="tech">
+						    			<span>My partner and I decided to build a reddit style website where people could post opinions regarding different things.</span>
+						    			<br>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>MEN Stack:</span>
+							    			<br>
+							    			<i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+							    			<i class="fa fa-css3 fa-2x"></i>
+							    			<i class="fab fa-js-square fa-2x"></i>
+							    			<i class="fas fa-leaf fa-2x"></i>
+							    			<i class="fab fa-node fa-2x"></i>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-two" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-two" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links-two">
+				    	<h5 id="project-2" class="card-title">Opinion Meter</h5>
+					    <a class="btn btn-secondary" role="button" href="https://opinionmeter.herokuapp.com/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/LehmanBrother/WDI-Project-2" target="_blank">Repo</a>
+				    </div>
+				  </div>
+				</div>
+			</div>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+			<div class="carousel-three">
 
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+				<div id="card-one" class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-three" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-three" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-three" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="img/Chidogs-thumb.png" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container-two">
+					    			<div class="tech">
+						    			<span>Social Network for dog owners. Site is live but it is still under construction.</span>
+						    			<br>
+						    			<br>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>MERN Stack:</span>
+							    			<br>
+							    			<i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+							    			<i class="fab fa-js-square fa-2x"></i>
+							    			<i class="fab fa-react fa-2x"></i>
+							    			<i class="fas fa-leaf fa-2x"></i>
+							    			<i class="fab fa-node fa-2x"></i>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-three" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-three" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links-two">
+				    	<h5 id="project-2" class="card-title">Chi-Dogs</h5>
+				    	<a class="btn btn-secondary" role="button" href="https://chidogs.herokuapp.com/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/ChiDogPlayDate-FrontEnd" target="_blank">FE Repo</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/ChiDogPlayDate-Backend" target="_blank">BE Repo</a>
+					    
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
 
-  </head>
+			<div class="carousel-four">
 
-  <body id="page-top">
+				<div id="card-one" class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-four" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-four" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-four" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="img/coinpurse.jpg" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container-two">
+					    			<div class="tech">
+						    			<span>Ruby on Rails API. Test using Postman. Coin machine app that tracks all transactions. Sends out email alerts when low.</span>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>Ruby on Rails:</span>
+							    			<br>
+							    			<i class="fas fa-gem fa-2x"></i><br>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-four" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-four" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links-two">
+				    	<h5 id="project-2" class="card-title">CoinPurse</h5>
+					    <a class="btn btn-secondary" role="button" href="https://coinpursemh.herokuapp.com/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/mortgagehippo_code_challenge" target="_blank">Repo</a>
+					    
+				    </div>
+				  </div>
+				</div>
+			</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Chris Roman</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about-me">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#my-journey">Journey</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
-<!--             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
+			<div class="carousel-five">
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome To My Portfolio!</div>
-          <div class="intro-heading text-uppercase">Take A Look Around!</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Let's Explore Together!</a>
-        </div>
-      </div>
-    </header>
+				<div id="card-one" class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-five" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-five" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-five" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="img/blogandarticle.png" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container-two">
+					    			<div class="tech">
+						    			<span>Simple Ruby on Rails app. Full CRUD on two models.</span>
+						    			<br>
+						    			<br>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>Ruby on Rails:</span>
+							    			<br>
+							    			<i class="fas fa-gem fa-2x"></i><br>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-five" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-five" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links-two">
+				    	<h5 id="project-2" class="card-title">Blogs and Articles</h5>
+					    <a class="btn btn-secondary" role="button" href="https://blogandarticle.herokuapp.com/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/BlogsandArticles" target="_blank">Repo</a>
+					    
+				    </div>
+				  </div>
+				</div>
+			</div>
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">My Projects</h2>
-              <div class="languages-frameworks">
-                <div class="skill-icons">
-                  <p class="section-subheading text-muted">I am passionate about backend development. These projects were built with the following languages, frameworks, and version control:</p>
-                  <span>
-                    <ul class="list-inline social-buttons">
-                      <li class="list-inline-item"><i class="fas fa-code fa-3x"></i><br>HTML5</li>
-                      <li class="list-inline-item"><i class="fab fa-css3-alt fa-3x"></i><br>CSS3</li>
-                      <li class="list-inline-item"><i class="fas fa-gem fa-3x"></i><br>Ruby on Rails</li>
-                      <li class="list-inline-item"><i class="fab fa-js-square fa-3x"></i><br>JavaScript</li>
-                      <li class="list-inline-item"><i class="fab fa-node fa-3x"></i><br>Node.js</li>
-                      <li class="list-inline-item"><i class="fas fa-leaf fa-3x"></i><br>MongoDB</li>
-                      <li class="list-inline-item"><i class="fab fa-react fa-3x"></i><br>React</li>
-                      <li class="list-inline-item"><i class="fab fa-3x">JQ</i><br>jQuery</li>
-                      <li class="list-inline-item"><i class="fab fa-github-square fa-3x"></i><br>Git/Github</li>
-                    </ul>
-                  </span>
-                </div>
-              </div>
-              <h3 class="section-subheading text-muted"></h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project1.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h5>Canvas Browser Game</h5>
-              <p class="text-muted">Escape the Meandering Dead</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project2.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>MEN Stack Web Forum</h4>
-              <p class="text-muted">Opinion Meter</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/Chidogs-thumb.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h6>MERN Stack Social Network</h6>
-              <p class="text-muted">ChiDogs</p>
-            </div>
-          </div>
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/blog-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Personal Blog</h4>
-              <p class="text-muted">Bootcamp to Web Dev</p>
-            </div>
-          </div> -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/bugetERlogo.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>MERN Stack Web App</h4>
-              <p class="text-muted">BudgetER</p>
-            </div>
-          </div>
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
+			<!-- <div class="carousel-six">
 
+				<div id="card-one" class="card bg-dark" style="width: 300px;">
+					<div id="carousel-item-six" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				    		<li data-target="#carousel-item-six" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carousel-item-six" data-slide-to="1"></li>
+				  		</ol>
+				  		<div class="carousel-inner" style="height: 250px;">
+				    		<div class="carousel-item active">
+				        		<img src="portfolio/coinpurse.jpg" class="d-block w-100" alt="...">
+				    		</div>
+				    		<div class="carousel-item">
+				    			<div class="tech-container-two">
+					    			<div class="tech">
+						    			<span>Ruby on Rails API. Test using Postman. Coin machine app that tracks all transactions. Sends out email alerts when low.</span>
+						    			<br>
+						    			<br>
+						    			<div class="tech-list">
+							    			<span>Ruby on Rails:</span>
+							    			<br>
+							    			<i class="fas fa-gem fa-2x"></i><br>
+						    			</div>
+					    			</div>
+				    			</div>
+				    		</div>
+				  			<a class="carousel-control-prev" href="#carousel-item-six" role="button" data-slide="prev">
+				    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    		<span class="sr-only">Previous</span>
+				  			</a>
+				  			<a class="carousel-control-next" href="#carousel-item-six" role="button" data-slide="next">
+				    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    			<span class="sr-only">Next</span>
+				  			</a>
+				  		</div>
+				 	</div>
+				  <div class="card-body">
+				    <div class="links-two">
+				    	<h5 id="project-2" class="card-title">CoinPurse</h5>
+					    <a class="btn btn-secondary" role="button" href="https://coinpursemh.herokuapp.com/" target="_blank">Site</a>
+					    <a class="btn btn-secondary" role="button" href="https://github.com/Christopher-Roman/mortgagehippo_code_challenge" target="_blank">Repo</a>
+					    
+				    </div>
+				  </div>
+				</div>
+			</div> -->
+	</div>
 
-    <!-- about-me -->
-    <section id="about-me">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">You know, what I do for fun and stuff...</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <a class="skill-link" href="art.html"><img class="rounded-circle img-fluid" src="img/art/art-thumbnail.jpg" alt="">
-            <h4 class="service-heading">Art</h4>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="sfx.html"><img class="rounded-circle img-fluid" src="img/sfx/pagelink.jpg" alt="">
-            <h4 class="service-heading">SFX Makeup</h4>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <div class="hoverlinks">
-            <a href="cooking.html">
-            <img class="rounded-circle img-fluid" src="img/cooking/foodlink.jpg" alt="">
-            <h4 class="service-heading">Cooking</h4>
-            </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	</div>
+		
 
-    <!-- About -->
-    <section id="my-journey">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">My Journey</h2>
-            <h3 class="section-subheading text-muted">Get to Know the Man Behind the Code</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/hospitality.JPG" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>January 2008-2015</h4>
-                    <h4 class="subheading">Hospitality</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Growing up in Florida, my first professional career started in 2008 working in the hospitality industry (obviously... I mean Florida right?). I started at a major hotel company and worked my way through the ranks of the front office. Starting as a Night Auditor, then on days as a Guest Services Agent, then to Supervisor, and finally Manager. </p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/revenue_analysis.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>September 2015-2018</h4>
-                    <h4 class="subheading">Revenue Analysis</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I found myself working in Revenue Analysis in 2015. That's when I knew it was time for a career change. After teaching myself advanced excel functionality, I realized how much I enjoyed creating things that made life easier. Efficiency has always been my strength. Finding better ways to do things, especially when I would ask why we do things a certain way and was inevitably told, "Because we always have..."</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/bootcamp.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>September 2018</h4>
-                    <h4 class="subheading">Bootcamp: A New Start!</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">It took three years to take the plunge, but I did it. After graduating General Assembly's Web Development Immersive, I never looked back. My new career was being forged with every class I attended, and I loved every second of it.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/skys_the_limit.JPG" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2018</h4>
-                    <h4 class="subheading">Transition Complete!</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Here I am, a fresh graduate of General Assembly's Web Development Immersive. After 13 weeks of non-stop learning, I am still learning. But, the foundation that has been put together is strong, and the sky is the limit when it comes to building my skills!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be a Part
-                    <br>Of My Next
-                    <br>Chapter!</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">My Amazing Team</h2>
-            <h3 class="section-subheading text-muted">You can only do so much alone.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/duckie.jpg" alt="">
-              <h4>Duckie Roman</h4>
-              <p class="text-muted">Chief Snuggle Officer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/ducklesworth11" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/duckie-roman-b10234175/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/headshot.jpg" alt="">
-              <h4>Chris Roman</h4>
-              <p class="text-muted">Web Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="https://github.com/Christopher-Roman" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/TopherR3" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/christopher-roman-cr/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="mailto:christopherroman85@gmail.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/mitchell.jpg" alt="">
-              <h4>Mitchell A. Clark</h4>
-              <p class="text-muted">Chief Foot Warming Officer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/LeftoverWaste" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/mitchell-clark-236223175/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">With a team like this, I can accomplish anything!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact -->
-    <!-- <section id="contact"> -->
-     <!--  <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Me</h2>
-            <h3 class="section-subheading text-muted">In case you prefer e-mail to social media</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div> -->
-    <!-- </section> -->
-
-    <!-- Footer -->
-<!--     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/TopherR3">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/Christopher-Roman">
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/christopher-roman-cr/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer> -->
-
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Escape the Meandering Dead</h2>
-                  <p class="item-intro text-muted">My very first Web-Browser Game.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/project1-full.jpg" alt="">
-                  <p>In this game I utilized HTML/CSS, Javascript, jQuery, and Canvas. It was the first time I had ever used canvas and it was an incredible experience. This project was completed less than a month after I started General Assembly's Web Development Immersive. The collision detection was where I had the most fun! That and the jerky movements the zombies have on the screen.</p>
-                  <ul class="list-inline">
-                    <li>Date: September 2018</li>
-                    <li>Play the Game: <a href="https://christopher-roman.github.io/project-1/" target="_blank">Click Here</a></li>
-                    <li>View the Repo: <a href="https://github.com/Christopher-Roman/project-1" target="_blank">Click Here</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Opinion Meter</h2>
-                  <p class="item-intro text-muted">Partnered Coding Project</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/project2-full.jpg" alt="">
-                  <p>Our second project was a joint venture with another person in the cohort. My partner and I decided to build a reddit style website where people could post opinions regarding different things. It was originally concepted to revolve around the current political climate. My partner and I utilized HTML/CSS, Javascript, Express, MongoDB, Mongoose, and Chart.js.</p>
-                  <ul class="list-inline">
-                    <li>Date: October 2018</li>
-                    <li>Take a Look: <a href="https://opinionmeter.herokuapp.com/" target="_blank">Click Here</a></li>
-                    <li>Collab Repo: <a href="https://github.com/LehmanBrother/WDI-Project-2" target="_blank">Click Here</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">ChiDogs</h2>
-                  <p class="item-intro text-muted">Capstone Project</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Chidogs-full.png" alt="">
-                  <h4>This project is still under construction, and I am in the process of building additional functionality.</h4>
-                  <br>
-                  <br>
-                  <p>As a loving dog dad of an incredibly social boxer, dog parks are a regular destination for me and Duckie. But, all too often we would go to a park and there were very few or sometimes no other dogs there at all. This is where ChiDogs comes in. A public message board for dog owners to plan and post about the dog parks that they are going to be visiting the day of or on future dates!</p>
-                  <p>This web application was created using MongoDB, Express, React, and Node.js. It allows the user to create a profile, add their dogs to their profile, add photos of their dogs, create posts about where they are planning to go and view the posts of other users. 
-
-                  I want to integrate more functionality from Google Maps API, allow users to add events to a global calendar, create search functionality of other user's pets with filters for specifics regarding other dogs, and add a direct messaging funtionality.</p>
-                  <ul class="list-inline">
-                    <li>Current Deadline Date: TBD</li>
-                    <li>GitHub Front End Repo: <a href="https://github.com/Christopher-Roman/ChiDogPlayDate-FrontEnd" target="_blank">Click Here</a></li>
-                    <li>GitHub Back End Repo: <a href="https://github.com/Christopher-Roman/ChiDogPlayDate-Backend" target="_blank">Click Here</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Bootcamp to Web Dev</h2>
-                  <p class="item-intro text-muted">Personal Blog</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/blog.jpg" alt="">
-                  <p>A blog I put together to get some ideas out there and to add some accountability to my job search and continued learning with coding.</p>
-                  <p>I used Bootstrap's Clean Blog Template and some basic HTML and CSS.</p>
-                  <ul class="list-inline">
-                    <li>Date: February 2019</li>
-                    <li>Take a Look: <a href="https://christopher-roman.github.io/BootcampToWebDev/home.html" target="_blank">Click Here</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Budgeter</h2>
-                  <p class="item-intro text-muted">Personal Project</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/BudgetERLarge.png" alt="">
-                  <p>This project is going to be a MERN stack application that allows users to create and manipulate custom budgets. The user will create a secured account which they can save budgets and create scenarios using those created budgets. Want to know what would happen if you saved an extra $50 a paycheck for a year? How would it impact your monthly available cash if you spent less on going out? All of this information will be displayed using data visualization tools like Chart.js!</p>
-                  <ul class="list-inline">
-                    <li>Current Deadline Date: TBD</li>
-                    <li>Category: MERN Stack Web Application</li>
-                    <li>GitHub Back-End Repo: <a href="https://github.com/Christopher-Roman/BudgetApp" target="_blank">Click Here</a></li>
-                    <li>GitHub Front-End Repo: <a href="https://github.com/Christopher-Roman/Budgeter-FrontEnd" target='_blank'>Click Here</a></li>
-                    <li>Under Construction Deployed Version: <a href="https://budget-er.herokuapp.com/" target='_blank'>Click Here</a></li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto" -->>
-              <!--   <div class="modal-body"> -->
-                  <!-- Project Details Go Here -->
-                  <!-- <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
-  </body>
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/3fd209cf20.js"></script>
+</body>
 </html>

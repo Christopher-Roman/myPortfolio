@@ -1,0 +1,61 @@
+.carousel-inner {
+	padding: 10px;
+}
+
+.about-me-link {
+	font-size: 35px;
+	text-decoration: underline;
+	color: #2c2c2c;
+}
+
+body {
+	background-color: #57595d
+}
+
+#project-1, #project-2, #project-3, #project-4, #project-5 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.links {
+	text-align: center;
+}
+
+h5 {
+	color: white;
+}
+
+span {
+	color: white;
+	font-size: 15px
+}
+
+.tech-container, .tech-container-two, .centered {
+	text-align: center;
+}
+
+.tech {
+	display: inline-block;
+}
+
+.tech-list i {
+	padding: 10px;
+}
+
+.fa, .fab, .fas {
+	color:white;
+}
+
+.carousel-one, .carousel-two, .carousel-three, .carousel-four, .carousel-five, .carousel-six, .carousel-main {
+	padding-right: 3px;
+	padding-top: 3px;
+}
+
+.links-two {
+	text-align: center;
+	font-size: 15px
+}
+
+#title {
+	font-family: 'Handlee', cursive;
+}
