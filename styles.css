@@ -3,9 +3,10 @@
 }
 
 .about-me-link {
-	font-size: 35px;
+	font-size: 10px;
 	text-decoration: underline;
 	color: #2c2c2c;
+	padding-top: 0px;
 }
 
 body {
@@ -54,8 +55,4 @@ span {
 .links-two {
 	text-align: center;
 	font-size: 15px
-}
-
-#title {
-	font-family: 'Handlee', cursive;
 }
